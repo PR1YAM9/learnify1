@@ -154,6 +154,19 @@
 .moving-txt{
     padding-top: 10px;
 }
+.car-cover{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.car-size{
+    /* width: 400px; */
+    max-width: 740px;
+    height: auto;
+    /* justify-content: center; */
+    margin: auto;
+}
+
 .txt{
     letter-spacing: 1px;
     font-family: 'Raleway';
@@ -179,6 +192,7 @@
 }
 .get-started{
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 /* section2 */
@@ -193,23 +207,16 @@
 .st-txt{
     letter-spacing: 1px;
     font-size: 2.5vw;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
     font-family: 'Raleway';
     text-align: center;
-    color: #FFF;
+    color: #ffffff;
 }
 .st-txt h4{
     font-weight: 700;
     padding: 5px;
 }
-
-
-
-
-
-
-
-
 
 
 /* get placed starts */
@@ -380,6 +387,9 @@ ul{
         width: 50%;
         margin-bottom: 30px;
     }
+    .car-size{
+        max-width: 450px;
+    }
 }
 @media(max-width: 767px){
     .footer-col{
@@ -396,6 +406,7 @@ a{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
+
 
 
 /* footer end */
@@ -422,4 +433,7 @@ a{
     height: auto;
     object-fit: contain;
     background-repeat: no-repeat;
+}
+.car-cover{
+    padding-bottom: 30px;
 }
